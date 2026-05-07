@@ -15,6 +15,6 @@ on:
 jobs:
   build-run:
     name: Build and run with startup msg verification
-    uses: nasa/cFS/.github/workflows/build-run-app.yml@main
+    uses: arielswalker/ds/.github/workflows/build-run-app-reusable.yml@test-jphickey-fix-998-workflow-config
     with:
       startup-string: Application initialized
